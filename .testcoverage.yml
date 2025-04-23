@@ -11,15 +11,15 @@ profile: cover.out
 threshold:
   # (optional; default 0)
   # Minimum coverage percentage required for individual files.
-  file: 60
+  file: 75
 
   # (optional; default 0)
   # Minimum coverage percentage required for each package.
-  package: 60
+  package: 75
 
   # (optional; default 0)
   # Minimum overall project coverage percentage required.
-  total: 60
+  total: 75
 
 # File name of go-test-coverage breakdown file, which can be used to
 # analyze coverage difference.
